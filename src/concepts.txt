@@ -1,0 +1,13 @@
+Handles complex
+Large number of parameters
+Immutability
+Examples
+    -StringBuilder
+    -DocumentBuilder
+    Locale.Builder
+
+Design:
+-this pattern is flexibility over telescoping constructor
+-static inner class because it return an instance of the object that is building
+-calls appropriate constructor
+-Negate the need for exposed setters  
